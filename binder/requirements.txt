@@ -1,1 +1,10 @@
-nbgrader
+git+https://github.com/jupyter/nbgrader.git
+
+pandas
+matplotlib
+chardet
+
+plotchecker
+nose
+
+spacy
