@@ -1,7 +1,8 @@
 #!/bin/bash
 
-mkdir -p /tmp/nbgraderExchange
-
 jupyter nbextension install --sys-prefix --py nbgrader --overwrite
 jupyter nbextension enable --sys-prefix --py nbgrader
 jupyter serverextension enable --sys-prefix --py nbgrader
+
+
+python3 -m spacy download en_core_web_lg
